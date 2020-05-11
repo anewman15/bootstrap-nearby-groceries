@@ -11095,8 +11095,9 @@ a.text-pure-black:hover, a.text-pure-black:focus {
 html {
   -o-object-fit: cover !important;
      object-fit: cover !important;
-  max-width: 1340px;
+  max-width: 1200px;
   min-width: 350px;
+  margin: 0 auto;
 }
 
 .main-bg {
