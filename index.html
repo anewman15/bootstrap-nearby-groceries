@@ -3,9 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <script src="https://kit.fontawesome.com/774f0ae2db.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./main.css">
+  <title>Nearby Groceries</title>
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary pr-5">
+      <a class="navbar-brand py-0" href="#"><img src="./images/nearby-groceries-logo.png" style="height: 50px;" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#"><i class="fas fa-search"></i>&nbsp;STORES<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">HOW IT WORKS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">SUGGEST A STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="mb-5">
+    <div class="card rounded-0 border-0 text-white">
+      <img class="card-img rounded-0 w-100" src="./images/groceries-main.jpeg" alt="Card image">
+      <div class="card-img-overlay rounded-0 border-0 d-flex flex-column justify-content-center align-content-center">
+        <div class="text-white text-center align-self-center">
+          <h5 class="card-title h2 font-weight-bold">IN THIS PANDEMIC, FIND STORES NEAREST TO YOU... AND ORDER FROM HOME</h5>
+          <p class="">You can order online or via cell phone and the goods will be delivered to your doorstep</p>
+        </div>
+        <div class="bg-white p-3 rounded">
+          <p class="text-primary font-weight-bold mb-2">SEARCH BY ITEMS</p>
+          <form class="">
+            <input class="form-control w-75 d-inline mx-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn bg-primary text-white mx-0" type="submit">Search</button>
+          </form>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="how-it-works mb-5">
+    <h2 class="h5 text-primary font-weight-bold text-center mb-3">HOW IT WORKS</h2>
+    <div class="text-center">
+      <div class="mb-4">
+        <i class="fas fa-search-location"></i>
+        <p class="font-weight-bold mt-2 mb-1">1 - SEARCH</p>
+        <p class="my-0">Search for items that you need. Choose the store that offers the best price and is closest to you</p>
+      </div>
+      <div class="mb-4">
+        <i class="fas fa-filter"></i>
+        <p class="font-weight-bold mt-2 mb-1">2 - FILTER</p>
+        <p class="my-0">Filter your search based on order type, item categories, pricing and distance</p>
+      </div>
+      <div class="mb-4">
+        <i class="fas fa-mobile-alt"></i>
+        <p class="font-weight-bold mt-2 mb-1">3 - CONTACT</p>
+        <p class="my-0">Get in touch with the personnel and ask for delivery time. Give them your address and phone number. Order online or via phone, whichever is preferable</p>
+      </div>
+      <div class="mb-4">
+        <i class="fas fa-hand-holding-heart"></i>
+        <p class="font-weight-bold mt-2 mb-1">4 - RECEIVE</p>
+        <p class="my-0">Receive your essentials at your doorstep. Make your payment if you chose cash on delivery</p>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="bg-primary p-5">
+      <div class="media">
+        <div class="media-body align-self-center mr-3">
+          <h5 class="mt-0 text-white h5 font-weight-bold">9,000 stores in your sub-district</h5>
+          <p class="text-white">We're adding hundreds more every day. You'll surely find the ones in your locality</p>
+          <a class="btn btn-light text-primary font-weight-bold" href="">Find a Store</a>
+        </div>
+        <img class="rounded-circle align-self-center" src="./images/location.jpg" alt="Generic placeholder image">
+      </div>
+    </div>
+    <div class="bg-secondary p-5">
+      <div class="media">
+        <div class="media-body align-self-center mr-3">
+          <h5 class="mt-0 text-white h5 font-weight-bold">No need to go out in this pandemic</h5>
+          <p class="text-white">Just order online or via phone and receive your essentials from home</p>
+          <a class="btn btn-light text-secondary font-weight-bold" href="">Search an item</a>
+        </div>
+        <img class="rounded-circle align-self-center" src="./images/stay-home.webp" alt="Generic placeholder image">
+      </div>
+    </div>
+    <div class="bg-danger p-5">
+      <div class="media">
+        <div class="media-body align-self-center mr-3">
+          <h5 class="mt-0 text-white h5 font-weight-bold">Leverage the power of your smartphone to buy things</h5>
+          <p class="text-white">Use your cell phone to purchase grocery items, either online or via calling the vendor</p>
+          <a class="btn btn-light text-danger font-weight-bold" href="">Search an item</a>
+        </div>
+        <img class="rounded-circle align-self-center" src="./images/smartphone.png" alt="Generic placeholder image">
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark">
+    <nav class="">
+      <div class="footer-nav">
+        <div class="footer-nav-links d-flex justify-content-between">
+          <a class="text-white font-weight-bold" href="">HOME</a>
+          <a class="text-white font-weight-bold" href="">SEARCH</a>
+          <a class="text-white font-weight-bold" href="">ABOUT US</a>
+          <a class="text-white font-weight-bold" href="">ADVERTISE</a>
+        </div>
+        <div class="location-icon">
+          <i class="fas fa-map-marker-alt text-white"></i>
+        </div>
+        <div class="footer-nav-links d-flex justify-content-between">
+          <a class="text-white font-weight-bold" href="">FACEBOOK</a>
+          <a class="text-white font-weight-bold" href="">TWITTER</a>
+          <a class="text-white font-weight-bold" href="">BLOG</a>
+          <a class="text-white font-weight-bold" href="">GOOGLE+</a>
+        </div>
+      </div>
+      <div>
+
+      </div>
+    </nav>
+  </footer>
   
 </body>
 </html>
