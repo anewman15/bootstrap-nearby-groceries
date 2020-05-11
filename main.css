@@ -11109,6 +11109,18 @@ html {
   font-size: 35px;
 }
 
+.store-count {
+  background: #e38c83;
+}
+
+.stay-home {
+  background: #9ba1a7;
+}
+
+.use-smartphone {
+  background: #52a5ff;
+}
+
 .media img {
   width: 180px;
   height: 180px;

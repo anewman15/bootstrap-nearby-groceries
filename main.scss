@@ -26,6 +26,20 @@ html {
   }
 }
 
+.store-count {
+  background: theme-color-level(grocery-pink, -4);
+}
+
+.stay-home {
+  background: theme-color-level(secondary, -4);
+
+}
+
+.use-smartphone {
+  background: theme-color-level(primary, -4);
+
+}
+
 .media {
   img {
     width: 180px;
