@@ -44,7 +44,50 @@ html {
 
 .use-smartphone {
   background: theme-color-level(primary, -6);
+}
 
+.store-name {
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
+}
+
+.store-hours {
+  font-size: small;
+  font-weight: bold;
+}
+
+.category-list {
+  color: $secondary;
+
+  li {
+    font-size: small;
+    background: rgba(214, 86, 73, 0.1);
+    border-color: rgba(68, 68, 68, 0.08);
+
+    i {
+      color: $grocery-pink;
+      margin-right: 5px;
+    }
+  }
+}
+
+.store-contact {
+  background:  rgba(68, 68, 68, 0.1);
+}
+
+.store-link {
+  font-weight: bold;
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: underline;
+    text-decoration-color: $grocery-pink;
+  }
 }
 
 .media {

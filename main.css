@@ -11126,6 +11126,51 @@ html {
   background: #7abaff;
 }
 
+.store-name {
+  color: #d65649;
+}
+
+.store-name:hover {
+  color: #d65649;
+  text-decoration: none;
+}
+
+.store-hours {
+  font-size: small;
+  font-weight: bold;
+}
+
+.category-list {
+  color: #444;
+}
+
+.category-list li {
+  font-size: small;
+  background: rgba(214, 86, 73, 0.1);
+  border-color: rgba(68, 68, 68, 0.08);
+}
+
+.category-list li i {
+  color: #d65649;
+  margin-right: 5px;
+}
+
+.store-contact {
+  background: rgba(68, 68, 68, 0.1);
+}
+
+.store-link {
+  font-weight: bold;
+  color: #d65649;
+}
+
+.store-link:hover {
+  color: #d65649;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #d65649;
+          text-decoration-color: #d65649;
+}
+
 .media img {
   width: 180px;
   height: 180px;
