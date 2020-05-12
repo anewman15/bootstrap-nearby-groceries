@@ -1,5 +1,7 @@
 $grocery-pink: #d65649;
 $pure-black: #000;
+$grocery-gray: #444;
+$secondary: $grocery-gray;
 
 $theme-colors: (
   "grocery-pink": $grocery-pink,
@@ -19,6 +21,10 @@ html {
   padding: 100px 20px;
   background-size: cover !important;
   background-position: 50% 50%;
+}
+
+.search-form {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .how-it-works {
@@ -62,13 +68,13 @@ html {
 
 @media screen and (min-width: 768px) {
   .footer-nav-links {
-    border-top: 0.5px solid #fff;
-    border-bottom: 0.5px solid #fff;
+    border-top: 0.5px solid $secondary;
+    border-bottom: 0.5px solid $secondary;
   }
 }
 
 .location-icon {
-  border: 0.5px solid #fff;
+  border: 0.5px solid $secondary;
   border-radius: 50%;
 
   .fas {
