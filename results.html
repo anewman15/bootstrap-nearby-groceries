@@ -33,38 +33,40 @@
       </div>
     </nav>
   </header>
-  <section class="search-filter container-fluid mb-5 py-5 bg-secondary">
-    <h2 class="h5 text-white text-center font-weight-bold mb-3">Filter by item name, distance, categories and price</h2>
-    <form class="d-flex flex-column flex-lg-row">
-      <div class="d-flex flex-column flex-md-row">
-        <input class="form-control my-2 flex-grow-1 rounded-0 mx-0" type="search" placeholder="Item name, e.g. Rice" aria-label="Search">
-        <input class="form-control my-2 rounded-0 mx-0" type="" placeholder="Distance in m or km">
+  <section class="container-fluid">
+    <div class="search-filter container-fluid mb-5 py-3">
+      <h2 class="h5 text-secondary text-center font-weight-bold mb-2">Filter by item name, distance, categories and price</h2>
+      <form class="d-flex flex-column">
+        <div class="d-flex flex-column flex-md-row">
+          <input class="form-control my-2 flex-grow-1 rounded-0 mx-0" type="search" placeholder="Item name, e.g. Rice" aria-label="Search">
+          <input class="form-control my-2 rounded-0 mx-0" type="" placeholder="Distance in m or km">
+        </div>
+        <div class="d-flex flex-column flex-md-row">
+          <input class="form-control my-2 rounded-0" type="text" placeholder="Price in Taka, e.g. 55">
+          <select class="form-control my-2 rounded-0 mx-0" name="item-categories" id="categories">
+            <option value="null">Category Name</option>
+            <option value="dry-tems">Dry Items</option>
+            <option value="packaged-items">Packaged Items</option>
+            <option value="ready-food">Ready Packaged Food</option>
+            <option value="vegetable">Vegetable</option>
+            <option value="fish">Fish</option>
+            <option value="meat">Meat</option>
+            <option value="spice">Spice</option>
+            <option value="hygiene">Hygiene</option>
+            <option value="drinks">Drinks</option>
+          </select>
+          <select class="form-control my-2 rounded-0 mx-0" name="order-type" id="order-type">
+            <option value="order-type">Order Type</option>
+            <option value="online">Online</option>
+            <option value="phone">Phone</option>
+          </select>
+        </div>
+        <div class="d-flex justify-content-center ml-1">
+          <button class="my-2 rounded-0 border-0 btn bg-grocery-pink text-white rounded-0 mx-lg-0 align-self-center w-auto" type="submit">Search</button>
+          <button class="my-2 rounded-0 border-0 btn bg-warning text-white rounded-0 ml-1 w-auto align-self-center" type="submit">Clear&nbsp;Filter</button>
       </div>
-      <div class="d-flex flex-column flex-md-row">
-        <input class="form-control my-2 rounded-0" type="text" placeholder="Price in Taka, e.g. 55">
-        <select class="form-control my-2 rounded-0 mx-0" name="item-categories" id="categories">
-          <option value="null">Category Name</option>
-          <option value="dry-tems">Dry Items</option>
-          <option value="packaged-items">Packaged Items</option>
-          <option value="ready-food">Ready Packaged Food</option>
-          <option value="vegetable">Vegetable</option>
-          <option value="fish">Fish</option>
-          <option value="meat">Meat</option>
-          <option value="spice">Spice</option>
-          <option value="hygiene">Hygiene</option>
-          <option value="drinks">Drinks</option>
-        </select>
-        <select class="form-control my-2 rounded-0 mx-0" name="order-type" id="order-type">
-          <option value="order-type">Order Type</option>
-          <option value="online">Online</option>
-          <option value="phone">Phone</option>
-        </select>
-      </div>
-      <div class="d-flex justify-content-center ml-1">
-        <button class="my-2 rounded-0 border-0 btn bg-grocery-pink text-white rounded-0 mx-lg-0 align-self-center w-auto" type="submit">Search</button>
-        <button class="my-2 rounded-0 border-0 btn bg-warning text-white rounded-0 ml-1 w-auto align-self-center" type="submit">Clear&nbsp;Filter</button>
-    </div>
     </form>
+  </div>
   </section>
   <section class="container-fluid">
     <nav class="container-fluid bg-pure-black">
