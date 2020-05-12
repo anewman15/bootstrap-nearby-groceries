@@ -11161,4 +11161,28 @@ html {
   font-size: 15px;
   padding: 15px;
 }
+
+.footer-options {
+  font-size: x-small;
+}
+
+.footer-options input {
+  font-size: x-small;
+}
+
+.footer-options button {
+  font-size: x-small;
+}
+
+.page-footer {
+  background-color: #1f1f1f;
+}
+
+.footer-icons i {
+  font-size: small;
+}
+
+.copyright {
+  font-size: x-small;
+}
 /*# sourceMappingURL=main.css.map */
