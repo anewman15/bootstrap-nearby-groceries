@@ -11247,4 +11247,55 @@ html {
   margin-top: 86px;
   background: rgba(68, 68, 68, 0.5);
 }
+
+.result-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.result-item {
+  margin: 0 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background: rgba(214, 86, 73, 0.3);
+}
+
+.item-title {
+  color: #d65649;
+}
+
+.item-title:hover {
+  color: #d65649;
+  text-decoration: none;
+}
+
+.vendor-title {
+  color: #d65649;
+}
+
+.vendor-title:hover {
+  color: #d65649;
+}
+
+.order-option {
+  font-weight: bold;
+  color: #d65649;
+}
+
+.order-option:hover {
+  color: #d65649;
+  text-decoration: none;
+}
+
+.vendor-img {
+  width: 95px !important;
+  height: 95px !important;
+}
 /*# sourceMappingURL=main.css.map */

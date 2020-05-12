@@ -163,3 +163,47 @@ html {
   margin-top: 86px;
   background: rgba(68, 68, 68, 0.5);
 }
+
+.result-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.result-item {
+  margin: 0 20px;
+  flex-grow: 1;
+  background: rgba(214, 86, 73, 0.3);
+}
+
+.item-title {
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
+}
+
+.vendor-title {
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+  }
+}
+
+.order-option {
+  font-weight: bold;
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
+}
+
+.vendor-img {
+  width: 95px !important;
+  height: 95px !important;
+}
