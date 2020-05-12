@@ -17,16 +17,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-text nav-link text-white" href="#"><i class="fas fa-search"></i>&nbsp;STORES<span class="sr-only">(current)</span></a>
+            <a class="nav-text nav-link text-white" href="#search-form"><i class="fas fa-search"></i>&nbsp;STORES<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-text nav-link text-white" href="#">HOW IT WORKS</a>
+            <a class="nav-text nav-link text-white" href="#how-it-works">HOW IT WORKS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-text nav-link text-white" href="#">SUGGEST A STORE</a>
+            <a class="nav-text nav-link text-white" href="#suggest-store">SUGGEST A STORE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-text nav-link text-white" href="#">REGISTER</a>
+            <a class="nav-text nav-link text-white" href="#register">REGISTER</a>
           </li>
         </ul>
       </div>
@@ -40,11 +40,11 @@
             <h5 class="h2 font-weight-bold">IN THIS PANDEMIC, FIND STORES NEAREST TO YOU... AND ORDER FROM HOME</h5>
             <p class="">You can order online or via cell phone and the goods will be delivered to your doorstep</p>
           </div>
-          <div class="w-75 mx-auto search-form p-4 rounded">
+          <div id="search-form" class="w-75 mx-auto search-form p-4 rounded">
             <p class="text-dark font-weight-bold mt-0 mb-2">SEARCH BY ITEMS</p>
             <form class="d-flex">
               <input class="form-control flex-grow-1 rounded-0 mx-0" type="search" placeholder="e.g. Rice" aria-label="Search">
-              <button class="btn bg-grocery-pink text-white rounded-0 mx-0" type="submit">Search</button>
+              <a href="./results.html" class="btn bg-grocery-pink text-white rounded-0 mx-0" type="submit">Search</a>
             </form>
           </div>
         </div>
@@ -52,7 +52,7 @@
     </div>
   </main>
   <section class="container-fluid how-it-works mb-5">
-    <h2 class="h5 text-grocery-pink font-weight-bold text-center mb-3">HOW IT WORKS</h2>
+    <h2 id="how-it-works" class="h5 text-grocery-pink font-weight-bold text-center mb-3">HOW IT WORKS</h2>
     <div class="row text-center">
       <div class="col-md-6 mb-5 px-5">
         <i class="text-secondary fas fa-search-location"></i>
@@ -263,7 +263,7 @@
         </div>
       </div>
     </div>
-    <div class="suggest-store text-center bg-secondary py-3">
+    <div  id="suggest-store" class="suggest-store text-center bg-secondary py-3">
       <p class="text-white">Suggest a store that is in your area and we will add it to our directory</p>
       <a class="btn btn-grocery-pink text-light font-weight-bold" href="">Suggest a Store</a>
     </div>
@@ -290,7 +290,7 @@
       </div>
       <div class="footer-options container-fluid mx-auto row px-0">
         <div class="col-md text-center mb-3">
-          <p class="mb-1 text-white font-weight-bold">REGISTER</p>
+          <p id="register" class="mb-1 text-white font-weight-bold">REGISTER</p>
           <form class="d-flex">
             <input class="form-control bg-pure-black flex-grow-1 mx-0 border border-secondary rounded-0" type="email" placeholder="Enter email or number" aria-label="Email">
             <button class="btn bg-secondary text-white mx-0 rounded-0" type="submit">Send</button>
