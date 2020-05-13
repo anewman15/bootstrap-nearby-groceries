@@ -11248,7 +11248,8 @@ html {
   background: rgba(68, 68, 68, 0.5);
 }
 
-.result-items {
+.result-items,
+.vendor-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11305,10 +11306,34 @@ html {
 }
 
 .item-info {
-  margin-right: 20px;
+  margin: 0 20px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   background: rgba(214, 86, 73, 0.3);
+}
+
+.more-item-info {
+  width: 260px;
+  margin: 0 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.vendor-map {
+  width: 80%;
+  height: 320px;
+  margin: 0 auto;
+}
+
+.vendor-website {
+  font-weight: bold;
+  color: #d65649;
+}
+
+.vendor-website:hover {
+  color: #d65649;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

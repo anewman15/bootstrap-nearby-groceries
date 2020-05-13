@@ -164,7 +164,8 @@ html {
   background: rgba(68, 68, 68, 0.5);
 }
 
-.result-items {
+.result-items,
+.vendor-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -214,7 +215,29 @@ html {
 }
 
 .item-info {
-  margin-right: 20px;
+  margin: 0 20px;
   flex-grow: 1;
   background: rgba(214, 86, 73, 0.3);
+}
+
+.more-item-info {
+  width: 260px;
+  margin: 0 20px;
+  flex-grow: 1;
+}
+
+.vendor-map {
+  width: 80%;
+  height: 320px;
+  margin: 0 auto;
+}
+
+.vendor-website {
+  font-weight: bold;
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
 }
