@@ -1,5 +1,5 @@
-# bootstrap-stores-near-you
-This is a grocery stores directory built using Bootstrap 4 based on [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam)'s design here: [here](https://www.behance.net/gallery/25563385/PatashuleKE)
+# bootstrap-nearby-groceries
+This is a grocery stores directory built using Bootstrap 4 based on [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam)'s design [here](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 There are three pages: the main page, a search results page and a store/item details page.
 
@@ -15,7 +15,7 @@ There are three pages: the main page, a search results page and a store/item det
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-newsweek-magazine/c7f26e06330649b985de9dea54645ca8ed4ea687/index.html)
+[Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-nearby-groceries/694cc797561fdc856fc648a91bbe4ab9e6f53027/index.html)
 
 ## Authors
 
@@ -37,7 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam) for their design here: [here](https://www.behance.net/gallery/25563385/PatashuleKE)
+- [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam) for their design [here](https://www.behance.net/gallery/25563385/PatashuleKE)
 - https://www.w3schools.com/
 - https://www.theodinproject.com/
 - https://www.stackoverflow.com/
