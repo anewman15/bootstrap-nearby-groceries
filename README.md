@@ -1,5 +1,5 @@
 # bootstrap-nearby-groceries
-This is a grocery stores directory built using Bootstrap 4 based on [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam)'s design [here](https://www.behance.net/gallery/25563385/PatashuleKE)
+This is a grocery stores directory built using Bootstrap 4 and Sass based on [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam)'s design [here](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 There are three pages: the main page, a search results page and a store/item details page.
 
