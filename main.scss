@@ -169,6 +169,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: start;
 }
 
 .result-item {
@@ -224,6 +225,18 @@ html {
   width: 260px;
   margin: 0 20px;
   flex-grow: 1;
+}
+
+.item-img {
+  height: 260px;
+  object-fit: scale-down;
+}
+
+.price-original {
+  font-size: small;
+  color: rgba(68, 68, 68, 0.6);
+  text-decoration: line-through;
+  margin-right: 20px;
 }
 
 .vendor-location {

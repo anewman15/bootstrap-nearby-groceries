@@ -11258,6 +11258,9 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 .result-item {
@@ -11319,6 +11322,19 @@ html {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.item-img {
+  height: 260px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.price-original {
+  font-size: small;
+  color: rgba(68, 68, 68, 0.6);
+  text-decoration: line-through;
+  margin-right: 20px;
 }
 
 .vendor-location {
