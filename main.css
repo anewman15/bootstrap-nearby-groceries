@@ -11321,6 +11321,10 @@ html {
           flex-grow: 1;
 }
 
+.vendor-location {
+  background: rgba(68, 68, 68, 0.1);
+}
+
 .vendor-map {
   width: 80%;
   height: 320px;
