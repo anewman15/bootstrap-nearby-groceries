@@ -3,6 +3,13 @@ $pure-black: #000;
 $grocery-gray: #444;
 $secondary: $grocery-gray;
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px
+);
+
 $theme-colors: (
   "grocery-pink": $grocery-pink,
   "pure-black": $pure-black
