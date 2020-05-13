@@ -160,7 +160,7 @@ html {
 }
 
 .search-filter {
-  margin-top: 86px;
+  margin-top: 126px;
   background: rgba(68, 68, 68, 0.5);
 }
 
@@ -207,4 +207,14 @@ html {
 .vendor-img {
   width: 95px !important;
   height: 95px !important;
+}
+
+.item-page {
+  margin-top: 126px;
+}
+
+.item-info {
+  margin-right: 20px;
+  flex-grow: 1;
+  background: rgba(214, 86, 73, 0.3);
 }
