@@ -9,6 +9,7 @@ There are three pages: the main page, a search results page and a store/item det
 
 - HTML5,
 - CSS3,
+- Sass,
 - Bootstrap 4,
 - VS Code,
 - Chrome developer tools
