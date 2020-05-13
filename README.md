@@ -11,12 +11,12 @@ There are three pages: the main page, a search results page and a store/item det
 - CSS3,
 - Sass,
 - Bootstrap 4,
-- VS Code,
-- Chrome developer tools
+- jQuery,
+- FontAwsome
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-nearby-groceries/6c3a763dbc0aa11764e7edefb576781291fcdda4/index.html)
+[Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-nearby-groceries/405147b79874b31f7f7cd4c4eb3dd8dbd78cc309/index.html)
 
 ## Authors
 
@@ -42,3 +42,4 @@ Give a ⭐️ if you like this project!
 - https://www.w3schools.com/
 - https://www.theodinproject.com/
 - https://www.stackoverflow.com/
+- https://fontawesome.com/
