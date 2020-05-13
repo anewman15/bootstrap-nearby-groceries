@@ -11260,6 +11260,7 @@ html {
 }
 
 .result-item {
+  width: 320px;
   margin: 0 20px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
