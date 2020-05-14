@@ -75,6 +75,29 @@ html {
   background: theme-color-level(grocery-pink, -4);
 }
 
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .call-to-action {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      order: 2;
+    }
+  }
+}
+
 .stay-home {
   background: theme-color-level(secondary, -4);
 }
@@ -124,13 +147,6 @@ html {
     color: $grocery-pink;
     text-decoration: underline;
     text-decoration-color: $grocery-pink;
-  }
-}
-
-.media {
-  img {
-    width: 180px;
-    height: 180px;
   }
 }
 
