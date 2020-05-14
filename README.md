@@ -16,7 +16,7 @@ There are three pages: the main page, a search results page and a store/item det
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-nearby-groceries/405147b79874b31f7f7cd4c4eb3dd8dbd78cc309/index.html)
+[Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-nearby-groceries/943413c97a101dec408435d6571ee0600e390fec/index.html)
 
 ## Authors
 
