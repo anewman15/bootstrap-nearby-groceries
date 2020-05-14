@@ -195,6 +195,20 @@ html {
   background-color: #1f1f1f;
 }
 
+.footer-icons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-icons-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .footer-icons {
   .fab,
   .fas {
