@@ -8238,6 +8238,18 @@ html {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+#search-form::before,
+#how-it-works::before,
+#suggest-store::before,
+#register::before {
+  display: block;
+  content: " ";
+  margin-top: -106px;
+  height: 106px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .how-it-works .fas {
   font-size: 35px;
 }
