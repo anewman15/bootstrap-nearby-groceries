@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/774f0ae2db.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./main.css">
+  <title>Nearby Groceries</title>
+</head>
+<body>
+  <header class="container-fluid m-auto">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-grocery-pink">
+      <a class="navbar-brand py-0 d-flex align-items-center" href="#"><img class="mr-2" src="./images/logo-small.png" style="height: 50px;" alt=""><h1 class="text-white h2">Nearby Groceries</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-text nav-link text-white" href="#search-form"><i class="fas fa-search"></i>&nbsp;STORES<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-text nav-link text-white" href="#how-it-works">HOW IT WORKS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-text nav-link text-white" href="#suggest-store">SUGGEST A STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-text nav-link text-white" href="#register">REGISTER</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main-section mb-5">
+    <div class="text-white">
+      <div class="main-bg w-100" style="background: url(./images/groceries-main.jpeg) no-repeat;">
+        <div class="rounded-0 border-0 d-flex flex-column justify-content-between align-content-center">
+          <div class="text-white text-center mb-5">
+            <h5 class="h2 font-weight-bold">IN THIS PANDEMIC, FIND STORES NEAREST TO YOU... AND ORDER FROM HOME</h5>
+            <p class="">You can order online or via cell phone and the goods will be delivered to your doorstep</p>
+          </div>
+          <div class="w-75 mx-auto search-form p-4 rounded">
+            <h2 id="search-form" class="h6 text-dark font-weight-bold mt-0 mb-2">SEARCH BY ITEMS</h2>
+            <form class="d-flex">
+              <input class="form-control flex-grow-1 rounded-0 mx-0" type="search" placeholder="e.g. Rice" aria-label="Search">
+              <a href="./results.html" class="btn bg-grocery-pink text-white rounded-0 mx-0">Search</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section id="how-it-works" class="container-fluid how-it-works mb-5">
+    <h2 class="h5 text-grocery-pink font-weight-bold text-center mb-3">HOW IT WORKS</h2>
+    <div class="row text-center">
+      <div class="col-md-6 mb-5 px-5">
+        <i class="text-secondary fas fa-search-location"></i>
+        <p class="text-grocery-pink font-weight-bold mt-2 mb-1">1 - SEARCH</p>
+        <p class="text-secondary my-0">Search for items that you need. Choose the store that offers the best price and is closest to you</p>
+      </div>
+      <div class="col-md-6 mb-5 px-5">
+        <i class="text-secondary fas fa-filter"></i>
+        <p class="text-grocery-pink font-weight-bold mt-2 mb-1">2 - FILTER</p>
+        <p class="text-secondary my-0">Filter your search based on order type, item categories, pricing and distance</p>
+      </div>
+      <div class="col-md-6 mb-5 px-5">
+        <i class="text-secondary fas fa-mobile-alt"></i>
+        <p class="text-grocery-pink font-weight-bold mt-2 mb-1">3 - CONTACT</p>
+        <p class="text-secondary my-0">Get in touch with the personnel and ask for delivery time. Give them your address and phone number. Order online or via phone, whichever is preferable</p>
+      </div>
+      <div class="col-md-6 px-5">
+        <i class="text-secondary fas fa-hand-holding-heart"></i>
+        <p class="text-grocery-pink font-weight-bold mt-2 mb-1">4 - RECEIVE</p>
+        <p class="text-secondary my-0">Receive your essentials at your doorstep. Make your payment if you chose cash on delivery</p>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid mb-5">
+    <div class="store-count p-5">
+      <div class="call-to-action">
+        <img class="rounded-circle mb-3" src="./images/location.jpg" alt="Generic placeholder image">
+        <div class="text-center text-md-left mr-3">
+          <h5 class="mt-0 text-white h5 font-weight-bold">9,000 stores in your sub-district</h5>
+          <p class="text-white">We're adding hundreds more every day. You'll surely find the ones in your locality</p>
+          <a class="btn btn-light text-grocery-pink font-weight-bold" href="">Find a Store</a>
+        </div>
+      </div>
+    </div>
+    <div class="stay-home p-5">
+      <div class="call-to-action">
+        <img class="rounded-circle mb-3" src="./images/stay-home.webp" alt="Generic placeholder image">
+        <div class="text-center text-md-left mr-3">
+          <h5 class="mt-0 text-white h5 font-weight-bold">No need to go out in this pandemic</h5>
+          <p class="text-white">Just order online or via phone and receive your essentials from home. All listed stores have home delivery services</p>
+          <a class="btn btn-light text-secondary font-weight-bold" href="">Search an item</a>
+        </div>
+      </div>
+    </div>
+    <div class="use-smartphone p-5">
+      <div class="call-to-action">
+        <img class="rounded-circlemb-3" src="./images/smartphone.png" alt="Generic placeholder image">
+        <div class="text-center text-md-left mr-3">
+          <h5 class="mt-0 text-white h5 font-weight-bold">Leverage the power of your smartphone to buy things</h5>
+          <p class="text-white">Use your cell phone to purchase grocery items, either online or via calling the vendor</p>
+          <a class="btn btn-light text-primary font-weight-bold" href="">Register</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid mb-5">
+      <h2 class="h5 text-grocery-pink font-weight-bold">SHOPS NEAR YOU</h2>
+      <p>We find nearby stores based on you cell phone location and your IP address</p>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-0">
+          <span class="font-weight-bold text-secondary">78m from you</span>
+          <a href=""><img class="card-img-top rounded-0" src="./images/jaman-telecom.jpeg" alt="Card image cap"></a>
+          <div class="card-body mt-1 p-0 mb-3">
+            <a href="" class="store-name"><h5 class="card-title h6 font-weight-bold py-0 my-0">Jaman Telecom and Varieties Store</h5></a>
+            <p class="store-hours py-0 my-0">Hours: 9:00 AM - 6:00 PM</p>
+          </div>
+          <ul class="category-list list-group list-group-flush p-0">
+            <li class="list-group-item"><i class="fas fa-egg"></i>&nbsp;Dry Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-box-open"></i>&nbsp;Packaged Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-bread-slice"></i>&nbsp;Ready Packaged Food: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-carrot"></i>&nbsp;Vegetable: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-fish"></i>&nbsp;Fish: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-drumstick-bite"></i>&nbsp;Meat: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-pepper-hot"></i>&nbsp;Spice: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-pump-soap"></i>&nbsp;Hygiene: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-cocktail"></i>&nbsp;Drinks: <span>Yes</span></li>
+          </ul>
+          <div class="store-contact card-body m-0 px-0 py-2 text-center">
+            <a href="#" class="store-link card-link p-0">Visit online store</a>
+            <p class="text-secondary font-weight-bold mx-0 mt-2 mb-0 p-0"><i class="fas fa-phone-alt"></i>&nbsp;Call: 01640-930777</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-0">
+          <span class="font-weight-bold text-secondary">78m from you</span>
+          <a href=""><img class="card-img-top rounded-0" src="./images/jaman-telecom.jpeg" alt="Card image cap"></a>
+          <div class="card-body mt-1 p-0 mb-3">
+            <a href="" class="store-name"><h5 class="card-title h6 font-weight-bold py-0 my-0">Jaman Telecom and Varieties Store</h5></a>
+            <p class="store-hours py-0 my-0">Hours: 9:00 AM - 6:00 PM</p>
+          </div>
+          <ul class="category-list list-group list-group-flush p-0">
+            <li class="list-group-item"><i class="fas fa-egg"></i>&nbsp;Dry Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-box-open"></i>&nbsp;Packaged Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-bread-slice"></i>&nbsp;Ready Packaged Food: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-carrot"></i>&nbsp;Vegetable: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-fish"></i>&nbsp;Fish: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-drumstick-bite"></i>&nbsp;Meat: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-pepper-hot"></i>&nbsp;Spice: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-pump-soap"></i>&nbsp;Hygiene: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-cocktail"></i>&nbsp;Drinks: <span>Yes</span></li>
+          </ul>
+          <div class="store-contact card-body m-0 px-0 py-2 text-center">
+            <a href="#" class="store-link card-link p-0">Visit online store</a>
+            <p class="text-secondary font-weight-bold mx-0 mt-2 mb-0 p-0"><i class="fas fa-phone-alt"></i>&nbsp;Call: 01640-930777</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-0">
+          <span class="font-weight-bold text-secondary">78m from you</span>
+          <a href=""><img class="card-img-top rounded-0" src="./images/jaman-telecom.jpeg" alt="Card image cap"></a>
+          <div class="card-body mt-1 p-0 mb-3">
+            <a href="" class="store-name"><h5 class="card-title h6 font-weight-bold py-0 my-0">Jaman Telecom and Varieties Store</h5></a>
+            <p class="store-hours py-0 my-0">Hours: 9:00 AM - 6:00 PM</p>
+          </div>
+          <ul class="category-list list-group list-group-flush p-0">
+            <li class="list-group-item"><i class="fas fa-egg"></i>&nbsp;Dry Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-box-open"></i>&nbsp;Packaged Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-bread-slice"></i>&nbsp;Ready Packaged Food: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-carrot"></i>&nbsp;Vegetable: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-fish"></i>&nbsp;Fish: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-drumstick-bite"></i>&nbsp;Meat: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-pepper-hot"></i>&nbsp;Spice: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-pump-soap"></i>&nbsp;Hygiene: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-cocktail"></i>&nbsp;Drinks: <span>Yes</span></li>
+          </ul>
+          <div class="store-contact card-body m-0 px-0 py-2 text-center">
+            <a href="#" class="store-link card-link p-0">Visit online store</a>
+            <p class="text-secondary font-weight-bold mx-0 mt-2 mb-0 p-0"><i class="fas fa-phone-alt"></i>&nbsp;Call: 01640-930777</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-0">
+          <span class="font-weight-bold text-secondary">78m from you</span>
+          <a href=""><img class="card-img-top rounded-0" src="./images/jaman-telecom.jpeg" alt="Card image cap"></a>
+          <div class="card-body mt-1 p-0 mb-3">
+            <a href="" class="store-name"><h5 class="card-title h6 font-weight-bold py-0 my-0">Jaman Telecom and Varieties Store</h5></a>
+            <p class="store-hours py-0 my-0">Hours: 9:00 AM - 6:00 PM</p>
+          </div>
+          <ul class="category-list list-group list-group-flush p-0">
+            <li class="list-group-item"><i class="fas fa-egg"></i>&nbsp;Dry Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-box-open"></i>&nbsp;Packaged Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-bread-slice"></i>&nbsp;Ready Packaged Food: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-carrot"></i>&nbsp;Vegetable: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-fish"></i>&nbsp;Fish: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-drumstick-bite"></i>&nbsp;Meat: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-pepper-hot"></i>&nbsp;Spice: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-pump-soap"></i>&nbsp;Hygiene: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-cocktail"></i>&nbsp;Drinks: <span>Yes</span></li>
+          </ul>
+          <div class="store-contact card-body m-0 px-0 py-2 text-center">
+            <a href="#" class="store-link card-link p-0">Visit online store</a>
+            <p class="text-secondary font-weight-bold mx-0 mt-2 mb-0 p-0"><i class="fas fa-phone-alt"></i>&nbsp;Call: 01640-930777</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-0">
+          <span class="font-weight-bold text-secondary">78m from you</span>
+          <a href=""><img class="card-img-top rounded-0" src="./images/jaman-telecom.jpeg" alt="Card image cap"></a>
+          <div class="card-body mt-1 p-0 mb-3">
+            <a href="" class="store-name"><h5 class="card-title h6 font-weight-bold py-0 my-0">Jaman Telecom and Varieties Store</h5></a>
+            <p class="store-hours py-0 my-0">Hours: 9:00 AM - 6:00 PM</p>
+          </div>
+          <ul class="category-list list-group list-group-flush p-0">
+            <li class="list-group-item"><i class="fas fa-egg"></i>&nbsp;Dry Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-box-open"></i>&nbsp;Packaged Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-bread-slice"></i>&nbsp;Ready Packaged Food: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-carrot"></i>&nbsp;Vegetable: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-fish"></i>&nbsp;Fish: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-drumstick-bite"></i>&nbsp;Meat: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-pepper-hot"></i>&nbsp;Spice: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-pump-soap"></i>&nbsp;Hygiene: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-cocktail"></i>&nbsp;Drinks: <span>Yes</span></li>
+          </ul>
+          <div class="store-contact card-body m-0 px-0 py-2 text-center">
+            <a href="#" class="store-link card-link p-0">Visit online store</a>
+            <p class="text-secondary font-weight-bold mx-0 mt-2 mb-0 p-0"><i class="fas fa-phone-alt"></i>&nbsp;Call: 01640-930777</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+        <div class="card border-0">
+          <span class="font-weight-bold text-secondary">78m from you</span>
+          <a href=""><img class="card-img-top rounded-0" src="./images/jaman-telecom.jpeg" alt="Card image cap"></a>
+          <div class="card-body mt-1 p-0 mb-3">
+            <a href="" class="store-name"><h5 class="card-title h6 font-weight-bold py-0 my-0">Jaman Telecom and Varieties Store</h5></a>
+            <p class="store-hours py-0 my-0">Hours: 9:00 AM - 6:00 PM</p>
+          </div>
+          <ul class="category-list list-group list-group-flush p-0">
+            <li class="list-group-item"><i class="fas fa-egg"></i>&nbsp;Dry Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-box-open"></i>&nbsp;Packaged Items: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-bread-slice"></i>&nbsp;Ready Packaged Food: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-carrot"></i>&nbsp;Vegetable: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-fish"></i>&nbsp;Fish: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-drumstick-bite"></i>&nbsp;Meat: <span>No</span></li>
+            <li class="list-group-item"><i class="fas fa-pepper-hot"></i>&nbsp;Spice: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-pump-soap"></i>&nbsp;Hygiene: <span>Yes</span></li>
+            <li class="list-group-item"><i class="fas fa-cocktail"></i>&nbsp;Drinks: <span>Yes</span></li>
+          </ul>
+          <div class="store-contact card-body m-0 px-0 py-2 text-center">
+            <a href="#" class="store-link card-link p-0">Visit online store</a>
+            <p class="text-secondary font-weight-bold mx-0 mt-2 mb-0 p-0"><i class="fas fa-phone-alt"></i>&nbsp;Call: 01640-930777</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="suggest-store text-center bg-secondary py-3">
+      <h2 id="suggest-store" class="h6 text-white font-weight-bold">Suggest a store that is in your area and we will add it to our directory</h2>
+      <a class="btn btn-grocery-pink text-light font-weight-bold" href="">Suggest a Store</a>
+    </div>
+
+  </section>
+  <section class="container-fluid">
+    <h2 class="d-none">Empty Heading</h2>
+    <nav class="container-fluid bg-pure-black">
+      <div class="container-fluid footer-nav mb-4 pt-2">
+        <div class="footer-nav-links d-flex flex-column justify-content-between align-items-end flex-md-row align-items-md-center">
+          <a class="text-white font-weight-bold" href="">HOME</a>
+          <a class="text-white font-weight-bold" href="">SEARCH</a>
+          <a class="text-white font-weight-bold" href="">ABOUT US</a>
+          <a class="text-white font-weight-bold" href="">ADVERTISE</a>
+        </div>
+        <div class="location-icon">
+          <i class="fas fa-map-marker-alt text-white"></i>
+        </div>
+        <div class="footer-nav-links d-flex flex-column justify-content-between align-items-start flex-md-row align-items-md-center">
+          <a class="text-white font-weight-bold" href="">FACEBOOK</a>
+          <a class="text-white font-weight-bold" href="">TWITTER</a>
+          <a class="text-white font-weight-bold" href="">BLOG</a>
+          <a class="text-white font-weight-bold" href="">GOOGLE+</a>
+        </div>
+      </div>
+      <div class="footer-options container-fluid mx-auto row px-0">
+        <div class="col-md text-center mb-3">
+          <p id="register" class="mb-1 text-white font-weight-bold">REGISTER</p>
+          <form class="d-flex">
+            <input class="form-control bg-pure-black flex-grow-1 mx-0 border border-secondary rounded-0" type="email" placeholder="Enter email or number" aria-label="Email">
+            <button class="btn bg-secondary text-white mx-0 rounded-0" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="col-md text-center mb-3">
+          <p class="mb-1 text-white font-weight-bold">CONTACT</p>
+          <address class="text-white mb-0">Nearby Groceries Pvt. Ltd <br>
+            Nischintopur, Cantonment Area, <br>
+            Comilla, BD
+          </address>          
+          <a class="text-grocery-pink font-weight-bold" href="mailto:contact@nearbygroceries.com.bd">contact@nearbygroceries.com.bd</a>
+        </div>
+        <div class="col-md text-center">
+          <p class="mb-1 text-white font-weight-bold">ABOUT</p>
+          <p class="text-white"> Nearby Groceries is a location-based directory of grocery stores that helps users to find the nearest groceries in their area.</p>
+        </div>
+      </div>
+    </nav>
+    <footer class="page-footer container-fluid mb-4 py-3">
+      <div class="footer-icons-wrapper">
+        <div class="footer-icons">
+          <a class="text-secondary mr-2" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="text-secondary mr-2" href=""><i class="fab fa-twitter"></i></a>
+          <a class="text-secondary mr-2" href=""><i class="fas fa-rss"></i></a>
+          <a class="text-secondary mr-2" href=""><i class="fab fa-google-plus-g"></i></a>
+          <a class="text-secondary" href=""><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="copyright d-flex align-content-center">
+          <p class="text-secondary mb-0">&copy;Nearby Groceries Pvt. Ltd, 2020. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

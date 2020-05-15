@@ -1,0 +1,334 @@
+$grocery-pink: #d65649;
+$pure-black: #000;
+$grocery-gray: #444;
+$secondary: $grocery-gray;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px
+);
+
+$theme-colors: (
+  "grocery-pink": $grocery-pink,
+  "pure-black": $pure-black
+);
+
+// Required
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "./node_modules/bootstrap/scss/reboot";
+@import "./node_modules/bootstrap/scss/type";
+@import "./node_modules/bootstrap/scss/images";
+@import "./node_modules/bootstrap/scss/code";
+@import "./node_modules/bootstrap/scss/grid";
+@import "./node_modules/bootstrap/scss/nav";
+@import "./node_modules/bootstrap/scss/navbar";
+@import "./node_modules/bootstrap/scss/utilities";
+@import "./node_modules/bootstrap/scss/forms";
+@import "./node_modules/bootstrap/scss/custom-forms";
+@import "./node_modules/bootstrap/scss/dropdown";
+@import "./node_modules/bootstrap/scss/card";
+@import "./node_modules/bootstrap/scss/buttons";
+@import "./node_modules/bootstrap/scss/button-group";
+@import "./node_modules/bootstrap/scss/media";
+@import "./node_modules/bootstrap/scss/input-group";
+@import "./node_modules/bootstrap/scss/list-group";
+@import "./node_modules/bootstrap/scss/transitions";
+
+html {
+  object-fit: cover !important;
+  max-width: 1200px;
+  min-width: 350px;
+  margin: 0 auto;
+}
+
+.nav-text {
+  font-size: small;
+}
+
+.main-section {
+  margin-top: 66px;
+}
+
+.main-bg {
+  padding: 100px 20px;
+  background-size: cover !important;
+  background-position: 50% 50%;
+}
+
+.search-form {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#search-form::before,
+#how-it-works::before,
+#suggest-store::before,
+#register::before {
+  display: block;
+  content: " ";
+  margin-top: -106px;
+  height: 106px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.how-it-works {
+  .fas {
+    font-size: 35px;
+  }
+}
+
+.store-count {
+  background: theme-color-level(grocery-pink, -4);
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .call-to-action {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      order: 2;
+    }
+  }
+}
+
+.stay-home {
+  background: theme-color-level(secondary, -4);
+}
+
+.use-smartphone {
+  background: theme-color-level(primary, -6);
+}
+
+.store-name {
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
+}
+
+.store-hours {
+  font-size: small;
+  font-weight: bold;
+}
+
+.category-list {
+  color: $secondary;
+
+  li {
+    padding: 10px;
+    font-size: small;
+    background: rgba(214, 86, 73, 0.1);
+    border-color: rgba(68, 68, 68, 0.08);
+
+    i {
+      color: $grocery-pink;
+      margin-right: 5px;
+    }
+  }
+}
+
+.store-contact {
+  background: rgba(68, 68, 68, 0.1);
+}
+
+.store-link {
+  font-weight: bold;
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: underline;
+    text-decoration-color: $grocery-pink;
+  }
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav-links {
+  width: calc((100% - 45px) / 2);
+  padding: 5px 10px;
+  font-size: x-small;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-nav-links {
+    border-top: 0.5px solid $secondary;
+    border-bottom: 0.5px solid $secondary;
+  }
+}
+
+.location-icon {
+  border: 0.5px solid $secondary;
+  border-radius: 50%;
+
+  .fas {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+.footer-options {
+  font-size: x-small;
+
+  input {
+    font-size: x-small;
+  }
+
+  button {
+    font-size: x-small;
+  }
+}
+
+.page-footer {
+  background-color: #1f1f1f;
+}
+
+.footer-icons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-icons-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer-icons {
+  .fab,
+  .fas {
+    font-size: small;
+  }
+}
+
+.copyright {
+  font-size: x-small;
+}
+
+.search-filter {
+  margin-top: 126px;
+  background: rgba(68, 68, 68, 0.5);
+}
+
+.result-items,
+.vendor-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.result-item {
+  width: 320px;
+  margin: 0 20px;
+  flex-grow: 1;
+  background: rgba(214, 86, 73, 0.3);
+}
+
+.item-title {
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
+}
+
+.vendor-title {
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+  }
+}
+
+.order-option {
+  font-weight: bold;
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
+}
+
+.vendor-img {
+  width: 95px !important;
+  height: 95px !important;
+}
+
+.item-page {
+  margin-top: 126px;
+}
+
+.item-info {
+  margin: 0 20px;
+  flex-grow: 1;
+  background: rgba(214, 86, 73, 0.3);
+}
+
+.more-item-info {
+  width: 260px;
+  margin: 0 20px;
+  flex-grow: 1;
+}
+
+.item-img {
+  height: 260px;
+  object-fit: scale-down;
+}
+
+.price-original {
+  font-size: small;
+  color: rgba(68, 68, 68, 0.6);
+  text-decoration: line-through;
+  margin-right: 20px;
+}
+
+.vendor-location {
+  background: rgba(68, 68, 68, 0.1);
+}
+
+.vendor-map {
+  width: 80%;
+  height: 320px;
+  margin: 0 auto;
+}
+
+.vendor-website {
+  font-weight: bold;
+  color: $grocery-pink;
+
+  &:hover {
+    color: $grocery-pink;
+    text-decoration: none;
+  }
+}
